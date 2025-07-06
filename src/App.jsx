@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <div>
-        <img src="/assets/1.jpg" alt="Ali Joshany" />
+        <img src="./assets/1.jpg" alt="Ali Joshany" />
       </div>
     </>
   );
