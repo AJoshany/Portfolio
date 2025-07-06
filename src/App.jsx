@@ -4,7 +4,13 @@ function App() {
   return (
     <>
       <div>
-        <img src="./assets/1.jpg" alt="Ali Joshany" />
+        <h1>We Are Comming Soon</h1>
+        <img
+          src="src/assets/1.jpg"
+          alt="Ali Joshany"
+          width="100%"
+          height="100%"
+        />
       </div>
     </>
   );
