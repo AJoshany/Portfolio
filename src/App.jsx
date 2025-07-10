@@ -1,6 +1,10 @@
+import { useRoutes } from "react-router";
 import "./App.css";
+import routes from "./routes";
 
 function App() {
+
+  const router = useRoutes(routes)
 
   return (
     <>
@@ -14,6 +18,7 @@ function App() {
           height="100%"
         />
       </div> */}
+      {router}
     </>
   );
 }
