@@ -1,9 +1,10 @@
 import "./App.css";
 
 function App() {
+
   return (
     <>
-      <div className="main">
+      {/* <div className="main">
         <h1>We Are Comming Soon</h1>
         <img
           className="first-img"
@@ -12,7 +13,7 @@ function App() {
           width="auto"
           height="100%"
         />
-      </div>
+      </div> */}
     </>
   );
 }
