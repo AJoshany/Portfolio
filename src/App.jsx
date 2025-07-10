@@ -1,6 +1,7 @@
 import { useRoutes } from "react-router";
 import "./App.css";
 import routes from "./routes";
+import Navbar from "./Navbar/Navbar";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <>
+      <Navbar />
       {/* <div className="main">
         <h1>We Are Comming Soon</h1>
         <img
