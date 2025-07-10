@@ -9,18 +9,12 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      {/* <div className="main">
-        <h1>We Are Comming Soon</h1>
-        <img
-          className="first-img"
-          src="/images/1.jpg"
-          alt="Ali Joshany"
-          width="auto"
-          height="100%"
-        />
-      </div> */}
-      {router}
+      <div className="main">
+
+        <h2>Loading ... </h2>
+        {/* <Navbar />
+        {router} */}
+      </div>
     </>
   );
 }

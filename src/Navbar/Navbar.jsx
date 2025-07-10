@@ -13,6 +13,9 @@ export default function Navbar() {
                         <li className="navbar-item">Resume</li>
                     </ul>
                 </div>
+                <div className='navbar-right'>
+                    <button>Resume</button>
+                </div>
             </nav>
         </>
     )
