@@ -2,7 +2,7 @@ export function initParticles(containerId = 'particles-container') {
     const particlesContainer = document.getElementById(containerId);
     if (!particlesContainer) return;
 
-    const particleCount = 80;
+    const particleCount = 100;
 
     for (let i = 0; i < particleCount; i++) {
         createParticle();
@@ -37,6 +37,7 @@ export function initParticles(containerId = 'particles-container') {
         const duration = Math.random() * 10 + 10;
         const delay = Math.random() * 5;
 
+
         setTimeout(() => {
             particle.style.transition = `all ${duration}s linear`;
             particle.style.opacity = Math.random() * 0.3 + 0.1;
@@ -53,7 +54,7 @@ export function initParticles(containerId = 'particles-container') {
         }, delay * 1000);
     }
 
-    document.addEventListener('mousemove', handleMouseMove);
+    // document.addEventListener('mousemove', handleMouseMove);
 
     function handleMouseMove(e) {
         const mouseX = (e.clientX / window.innerWidth) * 100;
