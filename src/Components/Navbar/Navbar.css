@@ -1,0 +1,35 @@
+.navbar-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    background-color: rgba(73, 73, 73, 0.1);
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    align-items: center;
+    padding: 1.4rem 0;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(158, 158, 158);
+}
+
+.navbar-list {
+    display: flex;
+    gap: 8rem;
+}
+
+.navbar-item {
+    padding: 1rem 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.navbar-item:hover {
+    color: white;
+}
+
+.active {
+    color: white;
+}
