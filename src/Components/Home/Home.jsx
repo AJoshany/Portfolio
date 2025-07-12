@@ -11,7 +11,7 @@ export default function Home() {
             </div>
 
             <div>
-                <img src="./public/images/home.jpg" alt="Ali Joshany" width="500px" className='home--img' />
+                <img src="public/images/home.jpg" alt="Ali Joshany" width="500px" className='home--img' />
             </div>
         </div>
     )
