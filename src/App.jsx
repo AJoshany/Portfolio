@@ -28,7 +28,7 @@ function App() {
           <div class="particles-container" id="particles-container"></div>
         </div>
 
-        <div>
+        <div className="main__routes">
 
           {router}
         </div>
