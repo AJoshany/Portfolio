@@ -1,17 +1,20 @@
+.navbar {
+    width: 100%;
+    background-color: rgba(73, 73, 73, 0.1);
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    position: relative;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+
 .navbar-container {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     justify-content: space-around;
-    background-color: rgba(73, 73, 73, 0.1);
-    border-bottom-right-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
     align-items: center;
     padding: 1.4rem 0;
-    width: 100%;
-    position: relative;
     z-index: 10;
-    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
     font-size: 1.8rem;
     font-weight: bold;
     color: rgb(158, 158, 158);
@@ -43,10 +46,12 @@
 }
 
 .navbar-togler {
-    align-self: flex-end;
-    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    top: auto;
     margin-right: 2rem;
     font-size: 3rem;
+
 }
 
 .navbar-left.show {
@@ -77,8 +82,8 @@
 @media screen and (min-width:1024px) {
     .navbar-container {
         flex-direction: row;
-        justify-content: space-evenly;
-        align-items: flex-start;
+        justify-content: space-between;
+
         align-items: center;
     }
 

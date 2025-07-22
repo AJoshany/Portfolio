@@ -1,0 +1,85 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.skills__heading {
+    text-align: center;
+    max-width: 100%;
+    font-size: 2rem;
+}
+
+.skills__heading h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.skills__heading p {
+    display: block;
+
+
+}
+
+/* Skills Box */
+
+.skills__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5rem;
+    column-gap: 4rem;
+    margin-top: 5rem;
+}
+
+.centered-row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.skill h3 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.skill .icon {
+    max-width: 128px;
+    max-height: 128px;
+    object-fit: cover;
+}
+
+@media screen and (min-width:1024px) {
+    .skills-container {
+        align-items: stretch;
+    }
+
+    .skills__box {
+        grid-template-columns: repeat(5, 1fr);
+        align-items: center;
+        justify-items: center;
+        column-gap: 5rem;
+        row-gap: 10rem;
+    }
+
+    .centered-row {
+        grid-column: 2 / span 3;
+        flex-direction: row;
+        justify-content: space-evenly;
+        column-gap: 10rem;
+    }
+
+    .skills__heading {
+        align-self: center;
+        width: 40%;
+        font-size: 2.4rem;
+    }
+}

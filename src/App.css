@@ -6,14 +6,16 @@
   font-size: 1.6rem;
 }
 
+.containermd {
+  margin: 0 auto;
+  width: 80%;
+}
+
 .main__routes {
   display: flex;
-
   flex-direction: column;
   align-self: center;
-  width: 100%;
   margin-top: 2rem;
-
   justify-content: center;
   align-items: center;
 }
@@ -21,6 +23,6 @@
 @media screen and (min-width:1024px) {
   .main__routes {
 
-    height: calc(100vh - 2.8rem);
+    height: calc(100% - 2.8rem);
   }
 }

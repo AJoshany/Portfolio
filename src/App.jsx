@@ -1,5 +1,5 @@
 import { useRoutes } from "react-router";
-import "./Background.css";
+// import "./Background.css";
 import "./App.css";
 import routes from "./routes";
 import Navbar from "./Components/Navbar/Navbar";
@@ -10,15 +10,15 @@ function App() {
 
   const router = useRoutes(routes)
 
-  useEffect(() => {
-    initParticles();
-  }, []);
+  // useEffect(() => {
+  //   initParticles();
+  // }, []);
 
   return (
     <>
-      <div className="main-content">
-        <Navbar />
-        <div class="gradient-background">
+      {/* <div className="main-content"> */}
+      <Navbar />
+      {/* <div class="gradient-background">
           <div class="gradient-sphere sphere-1"></div>
           <div class="gradient-sphere sphere-2"></div>
           <div class="gradient-sphere sphere-3"></div>
@@ -26,13 +26,13 @@ function App() {
           <div class="grid-overlay"></div>
           <div class="noise-overlay"></div>
           <div class="particles-container" id="particles-container"></div>
-        </div>
+        </div> */}
 
-        <div className="main__routes">
+      <div className="main__routes containermd">
 
-          {router}
-        </div>
+        {router}
       </div>
+      {/* </div> */}
 
     </>
     // <>
